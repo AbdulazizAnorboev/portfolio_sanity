@@ -38,5 +38,11 @@ export const structure = (S: StructureBuilder, context: any) =>
         S,
         context,
       }),
+      orderableDocumentListDeskItem({
+        type: 'activity',
+        title: 'Activities',
+        S,
+        context,
+      }),
       // Add other visible document types here
     ])
