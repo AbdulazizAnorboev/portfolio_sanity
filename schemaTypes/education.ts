@@ -14,6 +14,7 @@ export const education = defineType({
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
         {name: 'uz', title: 'Uzbek', type: 'string'},
+        {name: 'ru', title: 'Russian', type: 'string'},
       ],
     }),
 
@@ -41,6 +42,7 @@ export const education = defineType({
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
         {name: 'uz', title: 'Uzbek', type: 'string'},
+        {name: 'ru', title: 'Russian', type: 'string'},
       ],
     }),
     {
