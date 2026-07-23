@@ -13,6 +13,7 @@ export const experience = defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
     defineField({
@@ -22,6 +23,7 @@ export const experience = defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
 
@@ -48,6 +50,7 @@ export const experience = defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
     defineField({
@@ -57,6 +60,7 @@ export const experience = defineType({
       fields: [
         {name: 'en', title: 'English', type: 'array', of: [{type: 'string'}]},
         {name: 'kr', title: 'Korean', type: 'array', of: [{type: 'string'}]},
+        {name: 'uz', title: 'Uzbek', type: 'array', of: [{type: 'string'}]},
       ],
     }),
     {

@@ -12,6 +12,7 @@ export default defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
     defineField({
@@ -21,6 +22,7 @@ export default defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
     defineField({
@@ -30,6 +32,7 @@ export default defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
     defineField({
@@ -39,6 +42,7 @@ export default defineType({
       fields: [
         {name: 'en', title: 'English', type: 'text'},
         {name: 'kr', title: 'Korean', type: 'text'},
+        {name: 'uz', title: 'Uzbek', type: 'text'},
       ],
     }),
     defineField({
@@ -84,6 +88,7 @@ export default defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
     defineField({

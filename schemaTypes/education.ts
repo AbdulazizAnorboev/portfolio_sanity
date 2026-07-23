@@ -13,6 +13,7 @@ export const education = defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
 
@@ -39,6 +40,7 @@ export const education = defineType({
       fields: [
         {name: 'en', title: 'English', type: 'string'},
         {name: 'kr', title: 'Korean', type: 'string'},
+        {name: 'uz', title: 'Uzbek', type: 'string'},
       ],
     }),
     {

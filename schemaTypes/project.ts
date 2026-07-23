@@ -14,6 +14,7 @@ export const project = defineType({
       fields: [
         defineField({name: 'en', title: 'English', type: 'string'}),
         defineField({name: 'kr', title: 'Korean', type: 'string'}),
+        defineField({name: 'uz', title: 'Uzbek', type: 'string'}),
       ],
       validation: (Rule) => Rule.required(),
     }),
@@ -24,6 +25,7 @@ export const project = defineType({
       fields: [
         defineField({name: 'en', title: 'English', type: 'text'}),
         defineField({name: 'kr', title: 'Korean', type: 'text'}),
+        defineField({name: 'uz', title: 'Uzbek', type: 'text'}),
       ],
       validation: (Rule) => Rule.required(),
     }),
